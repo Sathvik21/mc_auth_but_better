@@ -20,11 +20,11 @@ scan the QR code" option during setup).
 
 | What | Link |
 | --- | --- |
-| Download everything (ZIP) | [main.zip](https://github.com/Sathvik21/mc_auth_sucks/archive/refs/heads/main.zip) |
-| macOS script | [totp.sh](https://raw.githubusercontent.com/Sathvik21/mc_auth_sucks/main/raycast-scripts/totp.sh) |
-| macOS auto-detect (optional) | [init.lua.example](https://raw.githubusercontent.com/Sathvik21/mc_auth_sucks/main/hammerspoon/init.lua.example) |
-| Windows script | [totp.ps1](https://raw.githubusercontent.com/Sathvik21/mc_auth_sucks/main/windows/totp.ps1) |
-| Windows hotkey | [hotkey.ahk](https://raw.githubusercontent.com/Sathvik21/mc_auth_sucks/main/windows/hotkey.ahk) |
+| Download everything (ZIP) | [main.zip](https://github.com/Sathvik21/mc_auth_but_better/archive/refs/heads/main.zip) |
+| macOS script | [totp.sh](https://raw.githubusercontent.com/Sathvik21/mc_auth_but_better/main/raycast-scripts/totp.sh) |
+| macOS auto-detect (optional) | [init.lua.example](https://raw.githubusercontent.com/Sathvik21/mc_auth_but_better/main/hammerspoon/init.lua.example) |
+| Windows script | [totp.ps1](https://raw.githubusercontent.com/Sathvik21/mc_auth_but_better/main/windows/totp.ps1) |
+| Windows hotkey | [hotkey.ahk](https://raw.githubusercontent.com/Sathvik21/mc_auth_but_better/main/windows/hotkey.ahk) |
 | Homebrew (macOS) | [brew.sh](https://brew.sh) |
 | Raycast (macOS) | [raycast.com](https://www.raycast.com) |
 | AutoHotkey v2 (Windows) | [autohotkey.com](https://www.autohotkey.com/) |
@@ -64,7 +64,7 @@ brew install oath-toolkit
 
 mkdir -p ~/raycast-scripts
 curl -fsSL -o ~/raycast-scripts/totp.sh \
-  https://raw.githubusercontent.com/Sathvik21/mc_auth_sucks/main/raycast-scripts/totp.sh
+  https://raw.githubusercontent.com/Sathvik21/mc_auth_but_better/main/raycast-scripts/totp.sh
 chmod +x ~/raycast-scripts/totp.sh
 ```
 
@@ -143,7 +143,7 @@ Test it: press the hotkey, then paste anywhere. You should get a fresh
 
 ### Optional: Hammerspoon auto-detect variant
 
-[`hammerspoon/init.lua.example`](https://raw.githubusercontent.com/Sathvik21/mc_auth_sucks/main/hammerspoon/init.lua.example)
+[`hammerspoon/init.lua.example`](https://raw.githubusercontent.com/Sathvik21/mc_auth_but_better/main/hammerspoon/init.lua.example)
 watches your browser and shows a notification when you land on a matching
 login page, instead of requiring a hotkey press. Install
 [Hammerspoon](https://www.hammerspoon.org/), then:
@@ -151,7 +151,7 @@ login page, instead of requiring a hotkey press. Install
 ```bash
 mkdir -p ~/.hammerspoon
 curl -fsSL -o ~/.hammerspoon/init.lua \
-  https://raw.githubusercontent.com/Sathvik21/mc_auth_sucks/main/hammerspoon/init.lua.example
+  https://raw.githubusercontent.com/Sathvik21/mc_auth_but_better/main/hammerspoon/init.lua.example
 ```
 
 This overwrites any existing `~/.hammerspoon/init.lua`, so back yours up
@@ -172,8 +172,8 @@ In PowerShell:
 ```powershell
 mkdir $HOME\totp -Force
 cd $HOME\totp
-Invoke-WebRequest https://raw.githubusercontent.com/Sathvik21/mc_auth_sucks/main/windows/totp.ps1 -OutFile totp.ps1
-Invoke-WebRequest https://raw.githubusercontent.com/Sathvik21/mc_auth_sucks/main/windows/hotkey.ahk -OutFile hotkey.ahk
+Invoke-WebRequest https://raw.githubusercontent.com/Sathvik21/mc_auth_but_better/main/windows/totp.ps1 -OutFile totp.ps1
+Invoke-WebRequest https://raw.githubusercontent.com/Sathvik21/mc_auth_but_better/main/windows/hotkey.ahk -OutFile hotkey.ahk
 ```
 
 Both files must stay in the **same folder**. Install
