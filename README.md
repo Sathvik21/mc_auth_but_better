@@ -1,5 +1,6 @@
-# mc_auth_sucks — TOTP codes on your computer
+# fix_mc_auth_pls — TOTP codes on your computer
 
+You ever try to lock in without your phone, but MC Auth makes u scan a code or smth, and it gets rly annoying? Well, heres:
 A hotkey that generates your TOTP (6-digit authenticator app) code on your
 computer, without needing your phone. macOS (Raycast / Hammerspoon) and
 Windows (PowerShell / AutoHotkey) versions included.
